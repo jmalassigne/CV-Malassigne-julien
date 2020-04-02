@@ -1,9 +1,12 @@
+/* Propriétés générale*/
+
 * {
 	box-sizing: border-box;
 }
  body {
  	margin: 0;
  	padding-top: 50px;
+    font-family: 'PT Sans', sans-serif;
  }
 
  .contain {
@@ -11,7 +14,12 @@
  	margin: auto;
  	border: 1px black solid;
  	display: flex;
+ 	flex-direction: column;
  }
+
+ /*fin des propriétés générales*/
+
+ /* Mise en page du HEADER*/
 
  .prez {
  	width: 100%;
@@ -42,10 +50,12 @@
  	line-height: 0.1;
  	text-transform: capitalize;
  	opacity: 1;
+ 	font-weight: normal;
  }
 
  .prenom {
  	color: #154360;
+ 	font-weight: bold;
  }
 
  .id h2 {
@@ -56,6 +66,8 @@
  .underline {
  	border-bottom: 2px rgba(21, 67, 96) solid;
  }
+
+ /* Fin de mise en page du HEADER*/
 
 
  

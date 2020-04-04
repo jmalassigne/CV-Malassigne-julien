@@ -35,8 +35,8 @@
 .bloc_photo img {
  	display: block;
  	border-radius: 50%;
- 	margin: 45px auto 45px auto;
  	border: 2px #1B4F72 ridge;
+ 	margin: 45px auto;
  }
 
 
@@ -180,21 +180,63 @@
  }
 
  a {
- 	color: black;
- 	opacity: .3;
+ 	color: rgba(0, 0, 0 , .3);
  	text-decoration: none;
- 	transition: opacity .5s;
+ 	transition: color .5s;
  }
 
  a:hover {
- 	opacity: 1;
+ 	color: rgba(0, 0, 0 , 1);
  }
 
 .intitule {
 	opacity: .6;
 }
   
- 
+  /* Fin de mise en page de MAIN */
+
+  /* Partie responsive */
+
+  @media screen and (max-width: 855px) {
+
+  	body {
+  		padding: 0; 
+  	}
+  	.prez, .main {
+  		display: block;
+  	}
+
+  	section, aside, .bloc_photo, .id {
+  		width: 100%;
+  	}
+
+  	.bloc_photo {
+  		padding: 30px 0;
+  	}
+
+  	.bloc_photo img {
+  		margin: 0 auto;
+  	}
+
+  	.id {
+  		text-align: center;
+  		padding: 40px 0 0 0;
+  	}
+
+  	section {
+  		padding: 10px 100px;
+  	}
+
+  	.icone-loisirs {
+  		margin-bottom: 0;
+  	}
+  } 
+
+@media screen and (max-width: 600px) {
+	section {
+		padding: 10px 20px;
+	}
+}
 
 
 

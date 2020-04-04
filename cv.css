@@ -69,5 +69,68 @@
 
  /* Fin de mise en page du HEADER*/
 
+ /* Mise en page de MAIN */
+
+ .main {
+ 	display: flex;
+ 	flex-direction: row-reverse;
+ }
+
+ aside {
+ 	width: 315px;
+ 	background-color: #2874A6;
+ }
+
+ section {
+ 	width: calc(100% - 315px);
+ 	padding: 40px 30px 20px 30px;
+ }
+
+ h3 {
+ 	text-transform: uppercase;
+ }
+
+ aside h3 {
+ 	background-color: #154360;
+ 	text-align: center;
+ 	padding: 10px 0;
+ 	color: #FFFFFF77;
+ }
+
+ article {
+ 	display: flex;
+ }
+
+ section h3 {
+ 	 	color: #154360;
+ 	 	font-size: 1.5em;
+ 	 	border-bottom: 1px #154360 solid; 
+ }
+
+ section h4 {
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ }
+
+ section:nth-child(3) {
+ 	justify-content: space-between;
+ }
+
+ .puce {
+ 	margin-right: 20px;
+ }
+
+ .date {
+ 	line-height: .4;
+ 	margin-right: 70px;
+ 	padding-top: 5px;
+ }
+
+ .margin-left {
+ 	margin-left: 40px;
+ 	color: rgba(0, 0, 0, .7);
+ }
+
+
 
  

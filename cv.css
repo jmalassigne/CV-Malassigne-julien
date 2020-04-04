@@ -5,7 +5,7 @@
 }
  body {
  	margin: 0;
- 	padding-top: 50px;
+ 	padding: 50px 0;
     font-family: 'PT Sans', sans-serif;
  }
 
@@ -79,6 +79,7 @@
  aside {
  	width: 315px;
  	background-color: #2874A6;
+ 	 	border-right: 1px solid black;
  }
 
  section {
@@ -95,6 +96,8 @@
  	text-align: center;
  	padding: 10px 0;
  	color: #FFFFFF77;
+ 	border-bottom: 1px solid black;
+ 	border-top: 1px solid black;
  }
 
  article {
@@ -102,7 +105,6 @@
  }
 
  section h3 {
- 	 	color: #154360;
  	 	font-size: 1.5em;
  	 	border-bottom: 1px #154360 solid; 
  }
@@ -112,24 +114,87 @@
  	font-weight: bold;
  }
 
- section:nth-child(3) {
- 	justify-content: space-between;
+.text-contact {
+	text-align: center;
+}
+
+.text-contact h4 {
+	margin: 20px 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-transform: capitalize;
+}
+
+.text-contact p {
+	margin: 0 0 30px 0;
+	padding: 0;
+	color: #000000CC;
+}
+
+#padding {
+	padding: 20px 40px 100px 40px;
+	text-align: justify;
+}
+
+ .space-between {
+ 	justify-content: space-around;
  }
 
  .puce {
  	margin-right: 20px;
+ 	font-size: .8em;
  }
 
  .date {
  	line-height: .4;
- 	margin-right: 70px;
+ 	margin-right: 0px;
  	padding-top: 5px;
+ 	width: 130px;
+ }
+
+ .etablissement h4 {
+ 	margin-top: 12px;
  }
 
  .margin-left {
  	margin-left: 40px;
  	color: rgba(0, 0, 0, .7);
  }
+
+ i {
+ 	color: #154360;
+ }
+
+ aside i {
+ 	border-radius: 50%;
+ 	border: 2px solid #154360;
+ 	padding: 10px;
+ }
+
+ .icone-loisirs {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	font-size: 1.5em;
+ 	margin: 15px;
+ }
+
+ a {
+ 	color: black;
+ 	opacity: .3;
+ 	text-decoration: none;
+ 	transition: opacity .5s;
+ }
+
+ a:hover {
+ 	opacity: 1;
+ }
+
+.intitule {
+	opacity: .6;
+}
+  
+ 
 
 
 

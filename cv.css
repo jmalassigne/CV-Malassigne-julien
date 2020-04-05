@@ -253,13 +253,28 @@
     .icone-loisirs {
       margin-bottom: 0;
     }
-  } 
-
-@media screen and (max-width: 600px) {
-  section {
-    padding: 10px 20px;
   }
-}
+
+  @media screen and (max-width: 676px) {
+    .date {
+      width: 70px;
+    }
+    .id h1, .line-height {
+      line-height: 1em;
+    }
+  }
+
+ @media screen and (max-width: 600px) {
+   section {
+     padding: 10px 20px;
+   }
+
+   #padding {
+      padding: 20px 40px;
+   }
+  }
+
+
 
 
 
